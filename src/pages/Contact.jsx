@@ -3,7 +3,7 @@ import logo from "../assets/svg/logo.svg"
 import connect1 from "../assets/connect1.avif"
 import connect2 from "../assets/connect2.avif"
 import connect3 from "../assets/connect3.avif"
-import "../styles/contact.css"
+import "../styles/Contact.css"
 import { Link } from 'react-router-dom'
 
 const Contact = () => {
