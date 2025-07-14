@@ -1,20 +1,12 @@
-🚀 CoinBand – Creative Agency Website
-Welcome to CoinBand, a sleek and fully animated creative agency website built using React, Next.js, and GSAP (GreenSock Animation Platform). This project is designed to captivate visitors with high-performance scroll-based animations, intuitive UI/UX, and a visually stunning layout. Whether you're building for a design studio, tech startup, or personal portfolio  CoinBand is crafted to leave a lasting impression.
+# React + Vite
 
-🌐 Live Preview
-🖼️ View Live Demo (or replace with your deployed link)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🛠️ Tech Stack
-React.js – Component-based frontend library
-Next.js – Server-side rendering, file-based routing & build optimization
-GSAP – Advanced animations and scroll effects
-ScrollTrigger – Triggers animations based on scroll position
-Framer Motion (optional) – Subtle motion animations
-Responsive Layout – Designed for all screen sizes
+Currently, two official plugins are available:
 
-<video width="100%" height="auto" autoplay muted loop>
-  <source src="/videos/coinband-demo.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-<img src="/images/coinband-hero.png" alt="CoinBand Hero Section" width="100%" />
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

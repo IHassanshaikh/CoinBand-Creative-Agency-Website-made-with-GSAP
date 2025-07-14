@@ -1,0 +1,181 @@
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  inset: 0% 0% auto;
+  position: sticky;
+  z-index: 1000;
+  padding: 2.4vw 5.6vw;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  font-weight: bold;
+  width: 12.4vw;
+}
+
+.logo-img {
+  width: 100%;
+}
+
+.icon {
+  width: 100%;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.1vw;
+  align-items: center;
+}
+
+.nav-item {
+  position: relative;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1vw;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.arrow {
+  display: inline-block;
+  color: var(--secondary);
+  margin-left: 0.3vw;
+  font-size: 0.5vw;
+  transition: transform 0.3s ease;
+}
+
+.nav-item.dropdown:hover .arrow {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: left;
+  position: absolute;
+  top: 1vw;
+  left: 0;
+  background: linear-gradient(to bottom, #000000, #151515);
+  padding: 1vw 1.5vw;
+  display: none;
+  flex-direction: column;
+  min-width: max-content;
+  z-index: 100;
+  border-radius: 0.5vw;
+}
+
+.dropdown-menu a {
+  text-align: left;
+  padding: 0.4vw 0;
+  text-decoration: none;
+  font-size: 0.9vw;
+  color: rgba(255, 255, 255, 0.49);
+}
+
+.dropdown-menu a:hover {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.contact-btn {
+  background-color: var(--secondary);
+  color: black;
+  border: none;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  flex: none;
+  padding: 0.5vw 2.4vw;
+  font-size: 0.98vw;
+  font-weight: 500;
+  line-height: 130%;
+  transition: background-color 0.4s;
+}
+
+.contact-btn:hover {
+  background-color: #ccff33;
+}
+
+.navicon {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+
+  .navbar {
+    padding: 2.4vw 7vw;
+  }
+
+  .contact-btn {
+    display: none;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .navicon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navicon:hover {
+    display: block;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+  .logo {
+    width: 16.4vw;
+  }
+
+
+}
+
+@media (max-width: 650px) {
+  .logo {
+    width: 32vw;
+  }
+
+  .navbar {
+    padding: 5vw;
+  }
+
+  .navicon {
+    width: 4vw;
+  }
+}

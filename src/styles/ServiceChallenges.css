@@ -1,0 +1,353 @@
+.s_smm_challenges {
+  padding: 0 5vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+  flex-direction: column;
+}
+
+.s_smm_challenges_header {
+  width: 57vw;
+  text-align: center;
+}
+
+.s_smm_challenges_header h1 {
+  font-weight: 500;
+  font-size: 3.5vw;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.s_smm_challenges_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+
+
+.s_smm_challenges_card {
+  width: 33vw;
+  height: 24vw;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 1.5vw;
+  border: 1px solid rgba(187, 187, 187, 0.172);
+  background-color: #080808;
+}
+
+.s_smm_challenges_card img {
+  width: 100%;
+  height: 14vw;
+  border-radius: 1.5vw 1.5vw 0vw 0vw;
+  object-fit: cover;
+}
+
+.s_smm_challenges_card p {
+  font-size: 1.2vw;
+  padding: 2vw;
+}
+
+.s_smm_challengesbig {
+  width: 68vw;
+  height: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 1.5vw;
+  border: 1px solid rgba(187, 187, 187, 0.172);
+  background-color: #080808;
+  gap: 3vw;
+}
+
+.s_smm_challengesbig p {
+  font-size: 1.3vw;
+  width: 60vw;
+}
+
+
+/* ---------------------------------- */
+.s_smm_benifits {
+  padding: 10vw 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+  flex-direction: column;
+  margin-top: 6vw;
+}
+
+.s_smm_benifit_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vw;
+}
+
+.s_smm_benifits_card {
+  width: 28vw;
+  height: 9vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  border-radius: 1.5vw;
+  border: 1px solid rgba(187, 187, 187, 0.172);
+  background-color: #080808;
+  gap: 1vw;
+  padding: 2vw;
+}
+
+.s_smm_benifits_card img {
+  width: 4vw;
+}
+
+.s_smm_benifits_card p {
+  font-size: 1vw;
+}
+
+.s_smm_reviews {
+  padding: 10vw 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+  overflow: hidden;
+}
+
+.s_smm_reviews_h3 {
+  text-align: center;
+  margin: auto;
+  font-size: 3vw;
+  font-weight: 500;
+  padding-bottom: 4vw;
+  width: 40vw;
+}
+
+.s_smmcryptomarket {
+  padding: 10vw 0;
+}
+
+.s_smm_blog {
+  padding: 10vw 0;
+}
+
+@media(max-width: 950px) {
+  .s_smm_challenges {
+    padding: 0 5vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    flex-direction: column;
+  }
+
+
+
+
+  .s_smm_challenges_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+  }
+
+
+  .s_smm_challenges_card {
+    width: 42vw;
+    height: 34vw;
+    border-radius: 1.5vw;
+  }
+
+  .s_smm_challenges_card img {
+    width: 100%;
+    height: 18vw;
+    border-radius: 1.5vw 1.5vw 0vw 0vw;
+    object-fit: cover;
+  }
+
+  .s_smm_challenges_card p {
+    font-size: 1.8vw;
+    padding: 3vw;
+  }
+
+  .s_smm_challengesbig {
+    width: 86vw;
+    height: 30vw;
+    gap: 4vw;
+  }
+
+  .s_smm_challengesbig p {
+    font-size: 1.9vw;
+    width: 60vw;
+  }
+
+  .s_smm_challenges_header {
+    width: 70vw;
+    margin-bottom: 2vw;
+  }
+
+  .s_smm_challenges_header h1 {
+    font-weight: 500;
+    font-size: 5vw;
+    text-align: center;
+    line-height: 1.1;
+  }
+
+
+  /* ---------------------------------- */
+
+  .s_smm_benifit_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+  }
+
+  .s_smm_benifits_card {
+    width: 70vw;
+    height: 15vw;
+    padding: 4vw;
+    gap: 2vw;
+  }
+
+  .s_smm_benifits_card img {
+    width: 7vw;
+  }
+
+  .s_smm_benifits_card p {
+    font-size: 1.8vw;
+  }
+
+  .s_smm_reviews {
+    padding: 10vw 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    overflow: hidden;
+  }
+
+  .s_smm_reviews_h3 {
+    text-align: center;
+    margin: auto;
+    font-size: 3vw;
+    font-weight: 500;
+    padding-bottom: 4vw;
+    width: 40vw;
+  }
+
+  .s_smmcryptomarket {
+    padding: 10vw 0;
+  }
+
+  .s_smm_blog {
+    padding: 10vw 0;
+  }
+}
+
+
+@media(max-width: 650px) {
+  .s_smm_challenges {
+    padding: 0 2vw;
+  }
+
+
+
+
+  .s_smm_challenges_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4vw;
+  }
+
+
+  .s_smm_challenges_card {
+    width: 90vw;
+    height: 50vw;
+    border-radius: 5vw;
+    border: 1px solid rgba(187, 187, 187, 0.603);
+  }
+
+  .s_smm_challenges_card img {
+    width: 100%;
+    height: 28vw;
+    border-radius: 5vw 5vw 0vw 0vw;
+    object-fit: cover;
+  }
+
+  .s_smm_challenges_card p {
+    font-size: 3.5vw;
+    padding: 3vw;
+  }
+
+  .s_smm_challengesbig {
+    width: 90vw;
+    height: 70vw;
+    gap: 4vw;
+    border-radius: 5vw;
+  }
+
+  .s_smm_challengesbig p {
+    font-size: 3.6vw;
+    width: 80vw;
+  }
+
+  .s_smm_challenges_header {
+    width: 90vw;
+    margin-bottom: 2vw;
+  }
+
+  .s_smm_challenges_header h1 {
+    font-size: 6vw;
+  }
+
+  /* ---------------------------------- */
+
+  .s_smm_benifit_body {
+    gap: 4vw;
+  }
+
+  .s_smm_benifits_card {
+    width: 90vw;
+    height: 36vw;
+    padding: 4vw;
+    gap: 4vw;
+    border: 1px solid rgba(187, 187, 187, 0.603);
+  }
+
+  .s_smm_benifits_card img {
+    width: 14vw;
+  }
+
+  .s_smm_benifits_card p {
+    font-size: 3.8vw;
+  }
+
+
+  .s_smm_reviews_h3 {
+    width: 100%;
+    font-size: 6vw;
+    margin: 6vw auto;
+  }
+
+
+  .s_smmcryptomarket {
+    padding: 16vw 0;
+  }
+
+  .s_smm_blog {
+    padding: 16vw 0;
+  }
+}

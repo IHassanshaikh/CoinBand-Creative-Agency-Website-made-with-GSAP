@@ -1,0 +1,152 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 1vw 5.6vw;
+  margin-top: -12vw;
+}
+
+.hero-left {
+  max-width: 50vw;
+}
+
+.hero-title {
+  font-size: 4.5vw;
+  font-weight: 600;
+  margin-bottom: 1.39vw;
+  line-height: 4.4vw;
+}
+
+.hero-subtitle {
+  font-size: 1.5vw;
+  margin-bottom: 2.08vw;
+  line-height: 1.2vw;
+  word-spacing: 0vw;
+}
+
+.hero-button {
+  display: flex;
+  font-size: 1.11vw;
+  margin: 4.39vw 0;
+  z-index: 2;
+  border-radius: 1.25vw;
+  justify-content: center;
+  align-items: center;
+  min-height: 3.45vw;
+  padding: 1.2vw 4vw;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s;
+  background-color: var(--secondary);
+}
+
+.hero-description {
+  font-size: 1vw;
+  /* 13.66px */
+  color: #838383;
+  line-height: 1.2vw;
+  /* 16.392px */
+  word-spacing: 0vw;
+}
+
+.hero-right {
+  max-width: 32vw;
+  margin-right: -30px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+
+
+@media(max-width: 1024px) {
+  .hero {
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1vw 7vw;
+    margin-top: -6vw;
+    flex-direction: column;
+  }
+
+  .hero-title {
+    font-size: 6vw;
+    font-weight: 600;
+    margin-bottom: 2vw;
+    line-height: 6.4vw;
+  }
+
+  .hero-subtitle {
+    font-size: 2vw;
+    margin-bottom: 2.08vw;
+    line-height: 1.2vw;
+    word-spacing: 0vw;
+  }
+
+  .hero-right {
+    max-width: 60vw;
+    margin-right: 0;
+  }
+
+  .hero-left {
+    max-width: 70vw;
+  }
+
+  .hero-description {
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-bottom: 2.08vw;
+  }
+
+  .hero-button {
+    font-size: 1.6vw;
+    padding: 1.6vw 5vw;
+  }
+}
+
+@media(max-width: 650px) {
+  .hero {
+    padding: 1vw 5vw;
+    margin-top: -5vw;
+  }
+
+  .hero-title {
+    font-size: 10vw;
+    font-weight: 600;
+    margin-bottom: 5vw;
+    line-height: 1;
+  }
+
+  .hero-subtitle {
+    font-size: 3.7vw;
+    margin-bottom: 2.08vw;
+    line-height: 1.2vw;
+    color: #bbbbbb;
+    font-weight: 600;
+  }
+
+  .hero-right {
+    max-width: 100%;
+    display: none;
+  }
+
+  .hero-left {
+    max-width: 100%;
+  }
+
+  .hero-description {
+    font-size: 3.6vw;
+    line-height: 1.2;
+    margin-bottom: 15vw;
+  }
+
+  .hero-button {
+    font-size: 3.5vw;
+    padding: 4vw 5vw;
+    width: 100%;
+    border-radius: 3vw;
+    margin: 8vw auto;
+  }
+}
