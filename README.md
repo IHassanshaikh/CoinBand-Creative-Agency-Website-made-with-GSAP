@@ -23,7 +23,7 @@ Responsive Layout – Designed for all screen sizes
 
 
 <video width="100%" height="auto" autoplay muted loop>
-  <source src="/videos/coinband-demo.mp4" type="video/mp4" />
+  <source src="coinband.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
