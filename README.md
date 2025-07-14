@@ -28,5 +28,7 @@ Responsive Layout – Designed for all screen sizes
 </video>
 
 
-<img src="/images/coinband-hero.png" alt="CoinBand Hero Section" width="100%" />
+<img src="coin-band.PNG" alt="CoinBand Hero Section" width="100%" />
+<img src="coin-band1.PNG" alt="CoinBand Hero Section" width="100%" />
+<img src="coin-band2.PNG" alt="CoinBand Hero Section" width="100%" />
 
