@@ -1,0 +1,590 @@
+.s_socialmedia_section {
+  display: flex;
+  flex-direction: column;
+  padding: 10vw 0.5vw 0vw 0.5vw;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+
+.s_socialmedia_animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Delay children animations if desired */
+.s_socialmedia_animate .s_socialmedia_textcontainer {
+  transition-delay: 0.1s;
+}
+
+.s_socialmedia_animate .s_socialmedia_logocontainer {
+  transition-delay: 0.2s;
+}
+
+.s_socialmedia_animate .s_casestudy {
+  transition-delay: 0.3s;
+}
+
+.s_socialmedia_textcontainer {
+  width: 75vw;
+  text-align: center;
+  margin-bottom: 3vw;
+  font-size: 2.15vw;
+  line-height: 1.4;
+  align-items: center;
+  margin: 3vw auto;
+}
+
+.s_socialmedia_whitetext {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.s_socialmedia_graytext {
+  color: #aaaaaa;
+}
+
+.s_socialmedia_logocontainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4vw;
+  gap: 1vw;
+}
+
+.s_socialmedia_logoframe {
+  border: 0.5px solid #4444446c;
+  border-radius: 1vw;
+  width: 4vw;
+  padding: 0.8vw;
+  background-color: #0B0B0B;
+}
+
+.s_casestudy {
+  margin-top: 10vw;
+}
+
+
+/* ------------------------------------------------------ */
+/* Main section container - dark background */
+.s_smmservice_section {
+  background-color: #0C0C0C;
+  padding: 7.5vw 9vw;
+  text-align: center;
+  color: white;
+  width: 87vw;
+  border-radius: 1vw;
+  border: 1px solid rgba(158, 158, 158, 0.164);
+  margin: 10vw auto;
+}
+
+/* Content container - centers everything */
+.s_smmservice_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 62vw;
+  align-self: center;
+  margin: auto;
+}
+
+/* Title styling - white uppercase text */
+.s_smmservice_title {
+  font-size: 3.159vw;
+  font-weight: 600;
+  margin-bottom: 1vw;
+  line-height: 1.2;
+}
+
+.green {
+  color: var(--secondary);
+}
+
+/* Description text - gray paragraph */
+.s_smmservice_description {
+  font-size: 1.1vw;
+  color: #bfbfbf9d;
+  margin-bottom: 3vw;
+  max-width: 50vw;
+}
+
+/* Button styling - blue CTA */
+.s_smmservice_button {
+  background-color: var(--secondary);
+  color: black;
+  padding: 1.5vw 3vw;
+  border: none;
+  border-radius: 1.4vw;
+  font-size: 1.2vw;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+/* --------------------------------------------------- */
+.smm_target_section {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 4vw 5vw;
+  /* Padding converted to vw */
+}
+
+.smm_target_section h2 {
+  font-size: 3vw;
+  font-weight: 500;
+}
+
+.smm_target_section p {
+  font-size: 1.3vw;
+  margin: 2vw auto 4vw auto;
+  color: gray;
+  width: 42vw;
+}
+
+.smm_target_buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.smm_target_button {
+  background-color: #080808;
+  color: #fff;
+  font-size: 1.4vw;
+  padding: 1.2vw;
+  border: none;
+  border-radius: 1.4vw;
+  cursor: pointer;
+  width: 17vw;
+  border: 1.5px solid transparent;
+  background-image:
+    linear-gradient(#080808, #080808),
+    linear-gradient(to right, rgba(128, 128, 128, 0.427), rgba(128, 128, 128, 0.05));
+
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+
+  transition:
+    background-image 1s ease-in-out,
+    background-color 1s ease-in-out,
+    border-color 1s ease-in-out;
+}
+
+.smm_target_button:hover {
+  background-image:
+    linear-gradient(#080808, #080808),
+    linear-gradient(to right, #bcff2a82, rgba(128, 128, 128, 0.05));
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+.s_smm_platform {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vw;
+  padding: 4vw 5vw;
+}
+
+.s_smm_platform_header {
+  display: flex;
+  text-align: right;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13vw;
+  margin-bottom: 5vw;
+}
+
+.s_smm_platform_header h1 {
+  font-size: 3vw;
+  text-align: start;
+  font-weight: 500;
+  width: 34vw
+}
+
+.s_smm_platform_header p {
+  font-size: 1.3vw;
+  text-align: start;
+  width: 34vw;
+}
+
+.s_smm_platform_cards {
+  display: flex;
+  justify-content: center;
+  width: 88vw;
+  gap: 2vw;
+  flex-wrap: wrap;
+}
+
+.s_smm_platform_card {
+  color: white;
+  padding: 3vw;
+  border-radius: 1vw;
+  text-align: center;
+  width: 28vw;
+  border: 1px solid rgba(128, 128, 128, 0.281);
+}
+
+.s_platform_icon img {
+  width: 3.5vw;
+  height: 3.5vw;
+  filter: brightness(0.5);
+}
+
+.s_platform_title {
+  font-size: 1.2vw;
+  background-color: #111111;
+  border: 1px solid rgb(86, 86, 86);
+  padding: 0.5vw 1vw;
+  width: max-content;
+  margin: 2vw auto;
+  font-weight: 500;
+  border-radius: 0.5vw;
+  color: gray;
+}
+
+.s_platform_description {
+  font-size: 1vw;
+  line-height: 1.4;
+}
+
+
+.s_platform_icon img:hover {
+  filter: brightness(0.8);
+}
+
+.s_smm_platform_cards .s_smm_platform_card:nth-child(4),
+.s_smm_platform_cards .s_smm_platform_card:nth-child(5) {
+  width: 43vw !important;
+}
+
+
+/* ------------------------------------------------------------------ */
+
+.s_smm_WEB3 {
+  padding: 10vw 5vw 0vw 5vw;
+}
+
+.s_smm_WEB3_header {
+  margin-top: 15vw;
+}
+
+@media(max-width: 950px) {
+  .s_socialmedia_textcontainer {
+    width: 86vw;
+    font-size: 3.5vw;
+    margin: 3vw auto;
+  }
+
+  .s_socialmedia_logocontainer {
+    margin-bottom: 4vw;
+    gap: 2vw;
+  }
+
+  .s_socialmedia_logoframe {
+    width: 5vw;
+  }
+
+
+  .s_smmservice_section {
+    background-color: #0C0C0C;
+    padding: 7.5vw 9vw;
+    text-align: center;
+    color: white;
+    width: 87vw;
+    border-radius: 1vw;
+    border: 1px solid rgba(158, 158, 158, 0.164);
+    margin: 10vw auto;
+  }
+
+  /* Content container - centers everything */
+  .s_smmservice_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    align-self: center;
+    margin: auto;
+  }
+
+  .s_smmservice_title {
+    font-size: 5vw;
+    margin-bottom: 2vw;
+    line-height: 1.1;
+  }
+
+  .s_smmservice_description {
+    font-size: 1.8vw;
+    max-width: 100%;
+  }
+
+  .s_smmservice_button {
+    font-size: 2vw;
+    margin: 2vw auto;
+  }
+
+  /* ----------------------------------- */
+  .smm_target_section {
+    padding: 6vw 4vw;
+  }
+
+  .smm_target_section h2 {
+    font-size: 5vw;
+  }
+
+  .smm_target_section p {
+    font-size: 1.8vw;
+    width: 60vw;
+  }
+
+  .smm_target_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vw;
+  }
+
+  .smm_target_button {
+    font-size: 1.8vw;
+    padding: 1.6vw 1.2vw;
+    border-radius: 1.8vw;
+    width: 20vw;
+  }
+
+
+  /* ------------------------------------------------------------------------------- */
+
+  .s_smm_platform {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    padding: 4vw 6vw;
+  }
+
+  .s_smm_platform_header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    margin-bottom: 4vw;
+  }
+
+  .s_smm_platform_header h1 {
+    font-size: 5vw;
+    text-align: center;
+    font-weight: 500;
+    width: auto;
+    line-height: 1.1;
+  }
+
+  .s_smm_platform_header p {
+    font-size: 2vw;
+    text-align: center;
+    width: auto;
+  }
+
+  .s_smm_platform_cards {
+    display: flex;
+    justify-content: center;
+    width: 88vw;
+    gap: 2vw;
+    flex-wrap: wrap;
+  }
+
+  .s_smm_platform_card {
+    color: white;
+    padding: 3vw;
+    border-radius: 2vw;
+    width: 28vw;
+  }
+
+  .s_platform_icon img {
+    width: 5vw;
+    height: 5vw;
+  }
+
+  .s_platform_title {
+    font-size: 1.8vw;
+    padding: 0.5vw 1vw;
+    width: max-content;
+    margin: 2vw auto;
+    border-radius: 1vw;
+  }
+
+  .s_platform_description {
+    font-size: 1.8vw;
+    line-height: 1.4;
+    padding: 2vw;
+  }
+
+
+
+  .s_smm_platform_cards .s_smm_platform_card:nth-child(4),
+  .s_smm_platform_cards .s_smm_platform_card:nth-child(5) {
+    width: 43vw !important;
+  }
+}
+
+@media (max-width: 650px) {
+  .s_socialmedia_textcontainer {
+    width: 95%;
+    font-size: 5vw;
+    margin: 5vw auto;
+  }
+
+  .s_socialmedia_logocontainer {
+    margin: 4vw 2vw;
+    gap: 4vw;
+    flex-wrap: wrap;
+  }
+
+  .s_socialmedia_logoframe {
+    width: 13vw;
+    border-radius: 2vw;
+    padding: 3vw;
+  }
+
+
+  .s_smmservice_section {
+    width: 90vw;
+    border-radius: 5vw;
+    margin: 16vw auto;
+    border: 1px solid rgba(187, 187, 187, 0.603);
+  }
+
+  .s_smmservice_title {
+    font-size: 6vw;
+  }
+
+  .s_smmservice_description {
+    font-size: 4vw;
+    max-width: 100%;
+    margin-top: 4vw;
+  }
+
+  .s_smmservice_button {
+    font-size: 4vw;
+    padding: 5vw 10vw;
+    border-radius: 4.5vw;
+    margin: 10vw 0;
+    ;
+  }
+
+  /* ----------------------------------- */
+  .smm_target_section {
+    padding: 6vw 4vw;
+  }
+
+  .smm_target_section h2 {
+    font-size: 6vw;
+  }
+
+  .smm_target_section p {
+    font-size: 3.8vw;
+    text-align: center;
+    width: 90vw;
+  }
+
+  .smm_target_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw;
+    margin: 10vw auto;
+  }
+
+  .smm_target_button {
+    font-size: 4.2vw;
+    padding: 4vw 2vw;
+    border-radius: 5vw;
+    width: 42vw;
+  }
+
+
+  /* ------------------------------------------------------------------------------- */
+
+  .s_smm_platform {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    padding: 4vw 6vw;
+    overflow: hidden;
+  }
+
+  .s_smm_platform_header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    margin-bottom: 4vw;
+    overflow: hidden;
+  }
+
+  .s_smm_platform_header h1 {
+    font-size: 6vw;
+  }
+
+  .s_smm_platform_header p {
+    font-size: 3.8vw;
+
+  }
+
+  .s_smm_platform_cards {
+    margin: 10vw auto;
+    overflow: scroll;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .s_smm_platform_card {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 4vw;
+    border-radius: 2vw;
+    width: 90vw;
+    height: 78vw;
+    border: 1px solid rgba(187, 187, 187, 0.603);
+  }
+
+  .s_platform_icon img {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .s_platform_title {
+    font-size: 3.5vw;
+    padding: 0.5vw 1vw;
+    width: max-content;
+    margin: 2vw 17vw;
+    border-radius: 1vw;
+  }
+
+  .s_platform_description {
+    font-size: 3.5vw;
+    line-height: 1.4;
+    padding: 2vw;
+  }
+
+  .s_smm_platform_cards .s_smm_platform_card:nth-child(4),
+  .s_smm_platform_cards .s_smm_platform_card:nth-child(5) {
+    color: white;
+    padding: 3vw;
+    border-radius: 2vw;
+    width: 95vw !important;
+    height: 78vw;
+  }
+}

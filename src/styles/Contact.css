@@ -1,0 +1,74 @@
+.connect-section {
+  background-color: #000;
+  color: #fff;
+  padding: 2.5vw 5.3vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  scrollbar-width: 0;
+}
+
+.connect-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+
+.connect-header h1 {
+  font-size: 2.8vw;
+  margin: 2vw 0;
+  font-weight: bold;
+  letter-spacing: 0.1vw;
+  text-align: start;
+  line-height: 1;
+}
+
+.connect-options {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  flex-wrap: nowrap;
+}
+
+.connect-card {
+  background-color: transparent;
+  border-radius: 1vw;
+  width: 29vw;
+  height: 29vw;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2vw;
+}
+
+.connect-card:hover {
+  background: linear-gradient(to right, #2e2e2e89, #262F14);
+}
+
+.connect-card img {
+  width: 100%;
+  object-fit: contain;
+  opacity: 0.9;
+  filter: brightness(1.4);
+  padding: 1vw;
+}
+
+.connect-card p {
+  font-size: 1.9vw;
+  line-height: 2.4vw;
+  font-weight: 500;
+}
+
+.connect-close {
+  background-color: #000;
+  padding: 0.5vw 2.2vw;
+  color: gray;
+  font-size: 1.2vw;
+  border: 1px solid rgba(128, 128, 128, 0.471);
+}

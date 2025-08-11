@@ -1,0 +1,52 @@
+.textContainer {
+  position: relative;
+  min-height: 62vh;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.animatedText {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7vw;
+  font-size: 3vw;
+  font-weight: 700;
+  line-height: 3.2vw;
+  width: 88vw;
+  margin: 0 auto;
+  text-align: start;
+}
+
+.animatedText span {
+  display: inline-block;
+  background: linear-gradient(to right, #fff 50%, #252525 50%);
+  background-size: 200% 100%;
+  background-position-x: 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: background-position 0.3s ease, opacity 0.3s ease;
+  font-size: 4vw;
+}
+
+@media (max-width: 1024px) {
+  .animatedText {
+    width: 85.5vw;
+  }
+}
+
+@media (max-width: 650px) {
+  .animatedText {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7vw;
+    font-size: 5.5vw;
+    font-weight: 700;
+    line-height: 1.2;
+    width: 89vw;
+    margin: 0 auto;
+    text-align: start;
+  }
+}
