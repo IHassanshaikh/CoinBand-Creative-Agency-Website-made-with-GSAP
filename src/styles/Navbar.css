@@ -134,6 +134,17 @@
   display: none;
 }
 
+.mobile-close-btn {
+  display: none;
+  position: absolute;
+  top: 5vw;
+  right: 5vw;
+  width: 6vw;
+  height: 6vw;
+  cursor: pointer;
+  z-index: 1001;
+}
+
 @media (max-width: 1024px) {
 
   .navbar {
@@ -177,5 +188,141 @@
 
   .navicon {
     width: 4vw;
+  }
+}
+
+/* Mobile menu styles */
+@media (max-width: 1024px) {
+  .nav-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 999;
+    padding: 20vw 0;
+  }
+
+  .nav-links.mobile-menu-open {
+    transform: translateX(0);
+  }
+
+  .nav-item {
+    display: block !important;
+    font-size: 4vw !important;
+  }
+
+  .dropdown-menu {
+    position: relative;
+    top: 0;
+    background: transparent;
+    padding: 2vw 0;
+    display: none;
+    text-align: center;
+  }
+
+  .dropdown-menu a {
+    font-size: 3.5vw !important;
+    padding: 1vw 0 !important;
+  }
+
+  .nav-item.dropdown:hover .dropdown-menu,
+  .nav-item.dropdown:focus-within .dropdown-menu {
+    display: flex;
+  }
+
+  .arrow {
+    font-size: 2vw !important;
+    margin-left: 1vw !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 2.4vw 7vw;
+  }
+
+  .contact-btn {
+    display: none;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .navicon {
+    display: block;
+    cursor: pointer;
+    width: 4vw;
+  }
+
+  .navicon:hover {
+    opacity: 0.7;
+  }
+
+  .logo {
+    width: 16.4vw;
+  }
+
+  /* Mobile Menu Styles */
+  .nav-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 999;
+    padding: 20vw 0;
+  }
+
+  .nav-links.mobile-menu-open {
+    transform: translateX(0);
+  }
+
+  .mobile-close-btn {
+    display: block;
+  }
+
+  .nav-item {
+    display: block !important;
+    font-size: 4vw !important;
+  }
+
+  .dropdown-menu {
+    position: relative;
+    top: 0;
+    background: transparent;
+    padding: 2vw 0;
+    display: none;
+    text-align: center;
+  }
+
+  .dropdown-menu a {
+    font-size: 3.5vw !important;
+    padding: 1vw 0 !important;
+  }
+
+  .nav-item.dropdown:hover .dropdown-menu,
+  .nav-item.dropdown:focus-within .dropdown-menu {
+    display: flex;
+  }
+
+  .arrow {
+    font-size: 2vw !important;
+    margin-left: 1vw !important;
   }
 }
